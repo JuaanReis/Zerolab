@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>ZeroLab Login</title>
+    <script src="{{ url_for('static', filename='js/login/login.js') }}" defer></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style/login/login.css') }}" />
+</head>
+<body>
+    <header>
+        <h1>ZeroLab</h1>
+    </header>
+
+    <main>
+        <form action="{{ url_for('main.users') }}" method="post" id="form-id" class="form-login">
+            <input type="text" name="user" placeholder="Write your name" required />
+            <input type="password" name="password" placeholder="Write your password" required />
+            <input type="text" name="msg" placeholder="Write your message" required />
+            <button type="submit">Send</button>
+        </form>
+    </main>
+</body>
+</html>

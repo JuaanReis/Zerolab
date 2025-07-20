@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    margin: 0;
+    font-family: 'Courier New', monospace;
+    color: #d4d4d4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #1a1a1a;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #00ffea;
+    width: 90%;
+    max-width: 600px;
+}
+
+h1 {
+    color: #00ffea;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.user-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.user-list li {
+    background-color: #222;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border-left: 4px solid #00ffea;
+}
+
+.username {
+    font-weight: bold;
+    color: #00ffea;
+    text-decoration: none;
+}
+
+.message {
+    color: #ccc;
+    font-style: italic;
+}
+
+.no-users {
+    text-align: center;
+    color: #888;
+}

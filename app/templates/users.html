@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZeroLab Account</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style/user/users.css') }}">
+    <script src="{{ url_for('static', filename='js/user/users.js') }}" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Registered Users</h1>
+        
+        {% if users %}
+            <ul class="user-list">
+                {% for user in users %}
+                    <li>
+                        <a class="username" href="/users/{{ user.username }}">{{ user.username }}:</a>
+                        <span class="message">"{{ user.message }}"</span>
+                    </li>
+                {% endfor %}
+            </ul>
+        {% else %}
+            <p class="no-users">No users yet</p>
+        {% endif %}
+    </div>
+</body>
+</html>

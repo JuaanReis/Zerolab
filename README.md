@@ -71,4 +71,4 @@ Actually, I don't care much, just try not to make money from my project (if you 
 And see [LICENSE](LICENSE)
 
 ## Contributors
-I know you want to help me grow this server (ironic) so for more information see [CONTRIBUTORS](CONTRIBUTORS)
+I know you want to help me grow this server (ironic) so for more information see [CONTRIBUTORS](CONTRIBUTORS.md)

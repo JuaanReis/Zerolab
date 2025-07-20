@@ -68,7 +68,7 @@ The only WAF here is me and my laziness in fixing the flaws.
 
 ## License
 Actually, I don't care much, just try not to make money from my project (if you make money, share it with me, I've been eating bread and water for a month). <br>
-And see [LICENSE](LICENSE.md)
+And see [LICENSE](LICENSE)
 
 ## Contributors
-I know you want to help me grow this server (ironic) so for more information see [CONTRIBUTORS](CONTRIBUTORS.md)
+I know you want to help me grow this server (ironic) so for more information see [CONTRIBUTORS](CONTRIBUTORS)
